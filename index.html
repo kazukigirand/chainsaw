@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Simple Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple website hosted on GitHub Pages.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" style="margin-top:40px; max-width: 600px; text-align: center;">
+    <h2>About Me</h2>
+    <p>Hi! I'm learning how to build websites. This is my first one, and it's live for free thanks to GitHub Pages.</p>
+  </section>
+
+  <section id="projects" style="margin-top:40px; max-width: 600px; text-align: center;">
+    <h2>Projects</h2>
+    <p>Coming soon... I plan to add more projects here as I learn!</p>
+  </section>
+
+  <section id="contact" style="margin-top:40px; max-width: 600px; text-align: center;">
+    <h2>Contact</h2>
+    <p>You can reach me via <a href="mailto:you@example.com">email</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Simple Website</p>
+  </footer>
+</body>
+</html>
